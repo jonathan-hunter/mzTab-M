@@ -85,9 +85,9 @@ This document presents a specification, not a tutorial. As such, the presentatio
 
 The remainder of this document is structured as follows.
 
-<<use-cases-for-mztab>> lists requirements that mzTab-M is designed to support.
-
 <<notational-conventions>> describes the terminology used.
+
+<<use-cases-for-mztab>> lists requirements that mzTab-M is designed to support.
 
 <<relationship-to-other-specifications>> describes how the specification presented in <<format-specification>> relates to other specifications, both those that it extends and those that it is intended to complement.
 
@@ -98,6 +98,11 @@ The remainder of this document is structured as follows.
 <<non-supported-use-cases>> lists use cases that are currently not supported.
 
 <<conclusions>> Conclusions are presented last.
+
+[[notational-conventions]]
+== Notational Conventions
+
+The key words “MUST,” “MUST NOT,” “REQUIRED,” “SHALL,” “SHALL NOT,” “SHOULD,” “SHOULD NOT,” “RECOMMENDED,” “MAY,” and “OPTIONAL” are to be interpreted as described in RFC-2119 <<bradner-1997, (Bradner 1997)>>.
 
 [[use-cases-for-mztab]]
 == Requirements for mzTab
@@ -119,11 +124,6 @@ The following requirements have driven the development of the mzTab data model, 
 7. It should be useful as an output format by web-services that can then be readily accessed by tools supporting mzTab-M.
 
 8. It should be possible to directly link a small molecule record to its source spectrum in an external MS data file.
-
-[[notational-conventions]]
-== Notational Conventions
-
-The key words “MUST,” “MUST NOT,” “REQUIRED,” “SHALL,” “SHALL NOT,” “SHOULD,” “SHOULD NOT,” “RECOMMENDED,” “MAY,” and “OPTIONAL” are to be interpreted as described in RFC-2119 <<bradner-1997, (Bradner 1997)>>.
 
 [[relationship-to-other-specifications]]
 == Relationship to Other Specifications
